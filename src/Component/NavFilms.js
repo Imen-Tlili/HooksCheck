@@ -1,16 +1,17 @@
 import { Container,Navbar, Nav} from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NavFilms=()=>{
 
     return(
         <div>
-         <Navbar bg="primary" variant="dark">
+         <Navbar bg="dark" variant="dark">
            <Container>
-            <Navbar.Brand href="#home">Movies</Navbar.Brand>
-            <Nav className="me-auto">
-                 <Nav.Link href="#home">Home</Nav.Link>
-                 <Nav.Link href="#menu">Menu</Nav.Link>
-                 <Nav.Link href="#favoris">Liste de favoris</Nav.Link>
+            
+            <Nav>
+                 <Nav.Link style={{color:'white'}}><Link to ='/'>Home</Link></Nav.Link>
+                 <Nav.Link className='lin'><Link to ='/menu'>Menu</Link></Nav.Link>
+                 <Nav.Link className='lin'><Link to ='/contact'>Contact</Link></Nav.Link>
             </Nav>
            </Container>
           </Navbar>

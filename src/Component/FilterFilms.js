@@ -11,7 +11,7 @@ const FilterFilms=({inpt,setInpt,rate,setRate})=>{
         <div className="filterfilm">
            <input onChange={(e)=> setInpt(e.target.value)} value={inpt}/>
            <Rating onChange={(e)=> setRate(e.target.value)} value={rate}/>
-           <Button  variant="outline-warning" onClick={handleReset}>Reset</Button>
+           <Button  variant="outline-info" onClick={handleReset}>Reset</Button>
 
 
             </div>

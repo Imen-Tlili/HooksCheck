@@ -55,3 +55,19 @@
   justify-content: flex-end;
   
 }
+
+.home{
+  height: 450px;
+  text-align: center;
+  background-image: url("https://www.journaldugeek.com/content/uploads/2018/06/netflix-juillet-1-e1530090252484.jpg");
+}
+
+.me-auto{
+ font-size: larger;
+}
+.lin{
+  font-style: italic;
+  font-size: large;
+  text-align: justify;
+  color:red;
+}
